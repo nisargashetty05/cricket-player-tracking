@@ -1,4 +1,4 @@
-from ultralytics import YOLO
+from ultralytics import YOLO  # type: ignore
 
 class PlayerDetector:
     def __init__(self, model_version='yolov8n.pt'):
