@@ -28,6 +28,7 @@ This project implements a computer vision pipeline to detect cricket players and
 
 ## Usage
 1.  Place your raw video file in `data/cricket_match.mp4`.
+    link for cricket_match = "https://drive.google.com/file/d/1NL9gd7WZpKxCm0Kg-WkEeEfhy_HBCHbh/view?usp=drive_link"
 2.  Run the pipeline:
     ```bash
     python scripts/run_pipeline.py
