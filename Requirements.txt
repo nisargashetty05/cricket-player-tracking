@@ -1,0 +1,6 @@
+echo "opencv-python
+numpy
+ultralytics
+scikit-learn
+filterpy
+lapx"
