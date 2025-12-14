@@ -34,6 +34,15 @@ This project implements a computer vision pipeline to detect cricket players and
     ```
 3.  The processed video will be saved to `output/tracked_video.mp4`.
 
+## Optional Enhancements implemented
+### Bird's Eye View (Minimap)
+I implemented a Perspective Transformation module to map player positions from the video onto a 2D top-down view of the cricket pitch.
+
+**How it works:**
+1.  **Calibration:** A helper script (`scripts/get_points.py`) allows the user to click 4 corners of the pitch in the video.
+2.  **Transformation:** Using OpenCV's `getPerspectiveTransform`, the pixel coordinates are mapped to a 2D plane.
+3.  **Visualization:** Players are plotted as red dots on a `Ground_image.png` template for realistic tactical analysis.
+
 ## Dependencies
 * Python 3.x
 * Ultralytics (YOLOv8)
